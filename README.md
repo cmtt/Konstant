@@ -5,21 +5,21 @@ TYPE_NUMBER, TYPE_UNDEFINED).
 
 ## Installation 
 
-  npm install konstant
+    npm install konstant
 
 ## Usage
 
 On the server, a simple
 
- require('konstant');
+    require('konstant');
 
 is sufficient for defining the type declarations. In a browser environment, the script just needs to be included in your DOM. 
 
 When additional constants are needed, the module should be initialized on the server as follows:
 
-  // Server environment
-
-  var Konstant = require('konstant');
+    // Server environment
+    
+    var Konstant = require('konstant');
 
 ## Functions
 
